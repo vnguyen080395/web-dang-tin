@@ -1,0 +1,72 @@
+.hinhnen{
+	background-image: url(images/home/bien2.jpg);
+	background-size: cover;
+	height: 500px;
+	
+}
+.container_slider{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.hinh_slider{
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+
+.row1{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.banner-content {
+	text-align: center;
+	width: 100%;
+	display: table-cell;
+	height: 500px;
+	vertical-align: middle;
+	padding-bottom: 150px;
+}
+.search-box-container {
+	width: 60%;
+	margin: 20px auto;
+	vertical-align: middle;
+	white-space: nowrap;
+	position: relative;
+	background: #fff;
+	height: 40px;
+}
+input#Thanhtimkiem{
+	height: 40px;
+	width: 55%;
+	
+}
+select#Chon{
+	height: 41px;
+	width: 25%;
+	background-color: #fff;
+	padding-left: 0px;
+	
+	text-align: left;
+}
+/*Không copy cái này, dùng tăng padding top bottom để demo cuộn*/
+input#Timkiem{
+	font-weight: bold;
+	background-color: #f25362;
+	border: none;
+	padding: 6px 15px 6px 35px;
+	width: 20%;
+	height: 41px;
+}
+#map_container{
+	position: relative;
+}
+#map{
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 22.25%;
+	padding-top: 30px;
+	position: relative;
+}
