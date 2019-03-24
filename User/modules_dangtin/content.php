@@ -1,15 +1,29 @@
 <?php 
-$ten=$_SESSION["name"];
-$sql3="SELECT * FROM tb_taikhoan WHERE Ten_tai_khoan='$ten' LIMIT 1";
-$result3=mysql_query($sql3);
-$row3=mysql_fetch_array($result3);
-$nguon=$row3["Ma_tai_khoan"];
+if(isset($_SESSION["name"]))
+{
+	$ten=$_SESSION["name"];
+	$sql3="SELECT * FROM tb_taikhoan WHERE Ten_tai_khoan='$ten' LIMIT 1";
+	$result3=mysql_query($sql3);
+	$row3=mysql_fetch_array($result3);
+	$nguon=$row3["Ma_tai_khoan"];
+}
+else
+{
+	$nguon="null";
+}
 date_default_timezone_set("Asia/Ho_Chi_Minh");
 $ngay=date('Y-m-d H:i:s');
 ?>
 <?php
 if(isset($_POST["submit"]))
 {
+	if($nguon=="null")
+	{
+		header("Location: taikhoan.php");
+	}
+	else
+	{
+	
 //kiem tra xem nguoi xu dung da bam vao nut "tai len" hay chua
 	$path = 'images/home/'; // vào thu mục images
 	if(isset($_FILES['Anhdaidien']["name"]))
@@ -293,7 +307,7 @@ if(isset($_POST["submit"]))
 	{
 		$Loi6="Đăng tin thất bại. Vui lòng thử lại!";
 	}
-
+	}
 }
 
 ?>
