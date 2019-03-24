@@ -80,10 +80,10 @@
  							<table class="table table-striped table-bordered table-hover" id="dataTables-example">
  								<thead>
  									<tr>
- 										<th style="text-align: center;">Mã tài khoản</th>
+ 										<th style="text-align: center;">Id tài khoản</th>
  										<th style="text-align: center;">Tên tài khoản</th>
  										<th style="text-align: center;">Mật khẩu</th>
- 										<th style="text-align: center;">Họ tên</th>
+ 										<th style="text-align: center;">Họ và tên</th>
  										<th style="text-align: center;">Số điện thoại</th>
  										<th style="text-align: center;">Địa chỉ</th>
  										<th style="text-align: center;">Xóa</th>
