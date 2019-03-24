@@ -113,7 +113,7 @@ $row8=mysql_fetch_array($result8);
 									<ul class="nav navbar-nav collapse navbar-collapse">
 										<li><a href="index.php" >Trang chủ</a></li>
 										<li ><a href="dangtin.php">Đăng tin</a></li>							
-										<li class="dropdown"><a>Hello account: <i><?php echo $name; ?></i></a>
+										<li class="dropdown"><a>Xin chào tài khoản: <i><?php echo $name; ?></i></a>
 											<ul role="menu" class="sub-menu">
 												<li><a href="">Quản lý tin tức</a></li>
 												<li><a href="">Trang cá nhân</a></li>
