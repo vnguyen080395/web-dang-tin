@@ -30,16 +30,11 @@
 	<?php
 	include("modules/config.php");
 	include("modules/header.php");
-	if(!isset($_SESSION["name"]))
-	{
-		header("Location: taikhoan.php");
-	} 
-	else
-	{
+	
 		include("modules_dangtin/content.php"); 
 		include("modules/footer.php");
 		include("nhung.php") ;
-	}
+	
 	?>
 	<script src="js/jquery.js"></script>
 	<script src="js/price-range.js"></script>
