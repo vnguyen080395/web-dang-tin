@@ -12,7 +12,7 @@ $row1=mysql_fetch_array($result1);
 		<div class="row row1">
 			<div class="col-sm-12">
 				<div class="carousel-inner hinhnen" style="background-image: url(<?php echo $row1["Hinh_nen"] ?>);">
-					<h1  style="text-align: center; color: #fff; padding-top:  100px">Nguyễn Cát Tiên - Nguyễn Thanh Huy</h1>
+					<h1  style="text-align: center; color: #fff; padding-top:  100px">Website đăng tin tức</h1>
 					<h4 style="text-align: center; color: #fff; padding-top: 50px">Chính xác - Nhanh chóng - Tiết kiệm</h3>
 						<div class="search-box-container" >
 							<form action="danhsach.php" method="POST">
